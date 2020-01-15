@@ -2,8 +2,6 @@ library(vegan)
 library(funfuns)
 library(tidyverse)
 
-setwd('~/Jayne/')
-
 set.seed(42)
 CD3 <- read_csv('new_plots/NG8_FC_control_NMDS_CD27all.csv')
 
